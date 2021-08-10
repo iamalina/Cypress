@@ -10,7 +10,7 @@ describe ('sign up', () => {
         });
     })
 
-    it('log in', () => {
+    it('Sign up with faker', () => {
         cy.get(':nth-child(3) > .nav-link').click();
         cy.get(':nth-child(1) > .form-control').type(user.username);
         cy.get(':nth-child(2) > .form-control').type(user.email);
